@@ -1,18 +1,10 @@
 import React from 'react';
 import { View, Text} from 'react-native';
 
-export default props => (
-<View>
-  <Text>Top</Text>
-</View>
+import Header from './Header';
+
+const Top = () => (
+  <Header />
 );
 
-/* Alternative Metod With Function
-export default function(props) {
-  return(
-    <View>
-      <Text>Top</Text>
-    </View>
-  );
-}
-*/
+export { Top }; // Key and content are equals Top: Top (ES6)

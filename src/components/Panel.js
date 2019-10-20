@@ -1,8 +1,16 @@
 import React from 'react';
-import { View, Text} from 'react-native';
+import {View} from 'react-native';
 
-export default props => (
+import Input from './Input';
+import Operation from './Operation';
+import Command from './Command';
+
+const Panel = () => (
 <View>
-  <Text>Panel</Text>
+  <Input />
+  <Operation />
+  <Command />
 </View>
 );
+
+export { Panel };

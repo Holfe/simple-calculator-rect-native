@@ -1,10 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-
-import Top from './src/components/Top';
-import Result from './src/components/Result';
-import Panel from './src/components/Panel';
+import {Top, Result, Panel} from './src/components';
 
 const App = () => {
   return (
