@@ -1,10 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
 
 import Display from './Display'
 
-const Result = () => (
-  <Display />
+const Result = props => (
+  <Display res={props.res} />
 );
 
-export { Result };
+export { Result }; // No default export

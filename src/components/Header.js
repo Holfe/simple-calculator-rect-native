@@ -10,7 +10,7 @@ export default props => (
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#55f',
-    padding: 12,
+    padding: 20,
     alignItems: 'center',
   },
   title: {

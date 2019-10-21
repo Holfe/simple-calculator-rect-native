@@ -1,20 +1,19 @@
 import React from 'react';
-import {View, TextInput, StyleSheet} from 'react-native';
+import { TextInput, StyleSheet } from 'react-native';
 
 export default props => (
-<View style={styles.container}>
-  <TextInput 
+  <TextInput
     placeholder='Result'
     editable={false}
     style={styles.text}
+    value={props.res}
   />
-</View>
-);
+)
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
-    padding: 15,
+    padding: 20,
+    height: 120,
   },
   text: {
     fontSize: 30,
